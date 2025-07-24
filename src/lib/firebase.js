@@ -41,8 +41,8 @@ const firebaseConfig = {
 //console.log('FIREBASE CONFIG:', firebaseConfig);
 
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApps()[0];
-console.log("whats inside app",app);
-console.log("getApp array first element in whole array",getApps());
+// console.log("whats inside app",app);
+// console.log("getApp array first element in whole array",getApps());
 
 
 const auth = getAuth(app);
